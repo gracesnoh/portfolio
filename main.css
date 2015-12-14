@@ -93,9 +93,6 @@ p1 {
 	float: top;
 	padding-left: 100px;
 	top: 0;
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-       -moz-box-shadow: 0 8px 6px -6px #999;
-            box-shadow: 0 8px 6px -6px #999;
 }
 
 .menu ul {
@@ -146,7 +143,7 @@ p1 {
 
 .bio {
 	padding: 30px 0 30px 110px; 
-	background-color: #E6E7E8;
+	background-color: white;
 	position: relative;
 	margin: 80px 0 0;
 
@@ -175,7 +172,7 @@ nav.social-icons ul li a{
 	text-align: center;
     vertical-align: bottom;
 	text-align: center;
-	line-height: 35px;
+	line-height: 30px;
 	-webkit-transition: background-color 0.5s; /* Safari */
     transition: background-color 0.5s;
 }
@@ -367,7 +364,7 @@ a:hover h4 {
 }
 
 .pic {
-	width: 500px;
+	width: 400px;
 	max-width: 100%;
 	display: inline-block;
 	vertical-align: middle;
@@ -394,14 +391,14 @@ a:hover h4 {
 /* About */
 
 .about {
-	padding: 0 110px 50px 110px;
+	padding: 0 200px 50px 200px;
 
 }
 
 /* Contact */
 
 .contact {
-	padding: 0 110px 50px 110px;
+	padding: 0 200px 50px 200px;
 }
 
 /* Projects */
@@ -426,7 +423,7 @@ a:hover h4 {
 }
 
 .description {
-	padding: 0px 110px 50px 110px;
+	padding: 0px 200px 50px 200px;
 }
 
 .collage {
@@ -444,7 +441,7 @@ a:hover h4 {
 }
 
 .nav-projects {
-	padding: 0px 110px 70px 110px;
+	padding: 0px 200px 70px 200px;
 }
 
 .icon {
@@ -452,7 +449,7 @@ a:hover h4 {
 	height: 50px;
 	background-color: #f5f5f5;
 	border-radius: 50%;
-	line-height: 55px;
+	line-height: 50px;
 	text-align: center;
 	display: inline-block;
 	float: left;
@@ -485,6 +482,28 @@ a:hover h4 {
 
   .bio {
 	padding: 30px 0 30px 60px; 
+  }
+
+  .about {
+	padding: 0 150px 50px 150px;
+
+  }
+
+  .contact {
+	padding: 0 150px 50px 150px;
+
+  }
+
+  .description {
+	padding: 0px 150px 50px 150px;
+  }
+
+  .pic {
+  	width: 300px;
+  }
+
+  .small-pic {
+  	width: 200px;
   }
 }
 
@@ -530,17 +549,17 @@ a:hover h4 {
   }
 
   .about {
-	padding: 0 15px 50px 15px;
+	padding: 0 25px 50px 25px;
 
   }
 
   .contact {
-	padding: 0 15px 50px 15px;
+	padding: 0 25px 50px 25px;
 
   }
 
   .description {
-	padding: 0px 15px 50px 15px;
+	padding: 0px 25px 50px 25px;
   }
 
   .prototype {
@@ -552,7 +571,11 @@ a:hover h4 {
   }
 
   .nav-projects {
-	padding: 0px 15px 35px 15px;
+	padding: 0px 25px 35px 25px;
+  }
+
+  #prototype {
+	transform: scale(0.6);
   }
 
   .square {
