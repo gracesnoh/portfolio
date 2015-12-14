@@ -454,6 +454,7 @@ a:hover h4 {
 	text-align: center;
 	display: inline-block;
 	float: left;
+	overflow: hidden;
 	-webkit-transition: background-color 0.5s; /* Safari */
     transition: background-color 0.5s;
 
