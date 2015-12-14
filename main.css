@@ -173,6 +173,7 @@ nav.social-icons ul li a{
     vertical-align: bottom;
 	text-align: center;
 	line-height: 30px;
+	overflow: hidden;
 	-webkit-transition: background-color 0.5s; /* Safari */
     transition: background-color 0.5s;
 }
